@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: "courseProjectMySqlDB"
+    ports:
+    - '3306:3306'
+    volumes:
+    - ./dataMySql:/var/lib/mysql
+    environment:
+    - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    - MYSQL_DATABASE=database
+    - MYSQL_USER=user
+    - MYSQL_PASSWORD=password
+  postgres:
+    image: postgres:12-alpine
+    container_name: "courseProjectPostgresDB"
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=user
+      - POSTGRES_DB=database
+    volumes:
+      - .\dataPostgres:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
