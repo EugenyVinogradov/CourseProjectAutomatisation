@@ -22,23 +22,17 @@ public class DataHelper {
     static Faker faker = new Faker();
 
     public static String getCardNumber(String cardNumberValue) {
-        if (cardNumberValue.equals("correctNumberPay")) {
+        if (cardNumberValue.equals("correctNumberApproved")) {
             return "1111 2222 3333 4444";
         }
-        if (cardNumberValue.equals("inCorrectNumberPay")) {
+        if (cardNumberValue.equals("correctNumberDeclined")) {
+            return "5555 6666 7777 8888";
+        }
+        if (cardNumberValue.equals("inCorrectNumber")) {
             return "1111 2222 3333 4445";
         }
         if (cardNumberValue.equals("inCompleteNumberPay")) {
             return "1111 2222 3333 444";
-        }
-        if (cardNumberValue.equals("correctNumberCreditBuy")) {
-            return "5555 6666 7777 8888";
-        }
-        if (cardNumberValue.equals("inCorrectNumberCreditBuy")) {
-            return "5555 6666 7777 8889";
-        }
-        if (cardNumberValue.equals("inCompleteNumberCreditBuy")) {
-            return "5555 6666 7777 888";
         }
         return null;
     }
