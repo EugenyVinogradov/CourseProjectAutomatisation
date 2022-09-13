@@ -4,18 +4,18 @@ plugins {
     id 'io.qameta.allure' version '2.9.6'
 }
 
-group 'ru.netology'
-version '1.0-SNAPSHOT'
-sourceCompatibility = 11
-compileJava.options.encoding = "UTF-8"
-compileTestJava.options.encoding = "UTF-8"
-
 allure {
     version = '2.16.1'
     useJUnit5 {
         version = '2.16.1'
     }
 }
+
+group 'ru.netology'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 11
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
 
 
 repositories {

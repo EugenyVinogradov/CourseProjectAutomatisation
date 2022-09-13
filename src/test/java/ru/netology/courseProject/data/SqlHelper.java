@@ -9,8 +9,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class SqlHelper {
-    public static QueryRunner runner;
-    public static Connection conn = connection();
+    public static QueryRunner runner = new QueryRunner();
+//    public static Connection conn = connection();
 
     @Value
     public static class CreditRequestEntity {
@@ -37,42 +37,44 @@ public class SqlHelper {
 
     @SneakyThrows
     private static Connection connection() {
-        return DriverManager.getConnection
-                (System.getProperty("dataBase.url"),
-                        System.getProperty("username"),
-                        System.getProperty("password")
-                );
+        return  DriverManager.getConnection("jdbc:mysql://localhost:3306/database", "user", "password");
     }
 
     @SneakyThrows
-    private static int numberOfRecordsFromPaymentEntity() {
-        return runner.query(conn, "SELECT count(*) FROM payment_entity", new ScalarHandler<>());
+    public static long countOfRecordsFromPaymentEntity() {
+        return runner.query(connection(), "SELECT count(*) FROM payment_entity", new ScalarHandler<>());
+    }
+
+
+    @SneakyThrows
+    public static long countOfRecordsFromCreditRequestEntity() {
+        return runner.query(connection(), "SELECT count(*) FROM credit_request_entity", new ScalarHandler<>());
     }
 
     @SneakyThrows
-    private static int numberOfRecordsFromCreditRequestEntity() {
-        return runner.query(conn, "SELECT count(*) FROM credit_request_entity", new ScalarHandler<>());
-    }
-
-    @SneakyThrows
-    private static int amountFromPaymentEntity() {
+    public static int amountFromPaymentEntity() {
         return runner.query(connection(), "SELECT amount FROM payment_entity", new ScalarHandler<>());
     }
+//
+//    @SneakyThrows
+//    public static int numberOfRecordsFromOrderEntity() {
+//        return runner.query(connection(), "SELECT count(*) FROM order_entity", new ScalarHandler<>());
+//    }
 
     @SneakyThrows
-    private static int numberOfRecordsFromOrderEntity() {
-        return runner.query(connection(), "SELECT count(*) FROM order_entity", new ScalarHandler<>());
-    }
-
-    @SneakyThrows
-    private static String statusFromPaymentEntity() {
+    public static String statusFromPaymentEntity() {
         return runner.query(connection(), "SELECT status FROM payment_entity", new ScalarHandler<>());
     }
 
     @SneakyThrows
-    private static void cleanDataBase() {
-        runner.update(conn, "DELETE * FROM credit_request_entity");
-        runner.update(conn, "DELETE * FROM order_entity");
-        runner.update(conn, "DELETE * FROM payment_entity");
+    public static String statusFromCreditRequestEntity() {
+        return runner.query(connection(), "SELECT status FROM credit_request_entity", new ScalarHandler<>());
+    }
+    @SneakyThrows
+    public static void cleanDataBase() {
+        var runner = new QueryRunner();
+        runner.update(connection(), "DELETE  FROM credit_request_entity");
+        runner.update(connection(), "DELETE  FROM order_entity");
+        runner.update(connection(), "DELETE  FROM payment_entity");
     }
 }
