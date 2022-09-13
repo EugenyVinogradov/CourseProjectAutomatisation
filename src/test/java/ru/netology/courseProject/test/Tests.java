@@ -27,6 +27,7 @@ public class Tests {
         open("http://localhost:8080");
         SqlHelper.cleanDataBase();
     }
+
     // Сценарии покупки тура
     @Test // #1 Успешная покупка тура Passed
     public void shouldPayTourApproved() {
@@ -39,6 +40,7 @@ public class Tests {
         String expected = DataHelper.getApproved();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test // #2  Failed
     public void shouldPayTourDeclinedWithCorrectNumber() {
         var startPage = new StartPage();
@@ -146,6 +148,7 @@ public class Tests {
         long actual = SqlHelper.countOfRecordsFromPaymentEntity();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test // #11 Failed
     public void shouldPayTourWithOwnerNameContainCyrillicNotPay() {
         var startPage = new StartPage();
@@ -326,6 +329,7 @@ public class Tests {
         String expected = DataHelper.getApproved();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test // #26 Failed
     public void shouldPayTourInCreditDeclinedWithCorrectNumber() {
         var startPage = new StartPage();
@@ -433,6 +437,7 @@ public class Tests {
         long actual = SqlHelper.countOfRecordsFromPaymentEntity();
         Assertions.assertEquals(expected, actual);
     }
+
     @Test // #35 Failed
     public void shouldPayTourInCreditWithOwnerNameContainCyrillicNotPay() {
         var startPage = new StartPage();

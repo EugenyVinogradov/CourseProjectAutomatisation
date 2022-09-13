@@ -130,10 +130,6 @@ public class DataHelper {
         return null;
     }
 
-    public static CardInfo getCardInfo(String card, String month, String year, String owner, String cvc) {
-        return new CardInfo(getCardNumber(card), getMonth(month), getYear(year), getNameOwner(owner), getCvc(cvc));
-    }
-
     public static String getApproved() {
         return "APPROVED";
     }

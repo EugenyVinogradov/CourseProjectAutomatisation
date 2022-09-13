@@ -33,10 +33,12 @@ public class StartPage {
         buyButton.click();
         return new PaymentPage();
     }
+
     public CreditPaymentPage goCreditPaymentPage() {
         buyOnCreditButton.click();
         return new CreditPaymentPage();
     }
+
     public void setValues(String cardNumber, String month, String year, String owner, String cvc) {
         cardNumberField.setValue(DataHelper.getCardNumber(cardNumber));
         monthField.setValue(DataHelper.getMonth(month));
@@ -57,30 +59,39 @@ public class StartPage {
     public void operationDeclined() {
         operationDeclinedMessage.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void incorrectFormatCardNumber() {
         incorrectFormatCardNumber.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void incorrectMonth() {
         incorrectMonth.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void expiredCardYear() {
         expiredCardYear.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void incorrectFormatMonth() {
         incorrectFormatMonth.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void incorrectFormatYear() {
         incorrectFormatYear.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void emptyOwnerField() {
         emptyOwnerField.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void incorrectFormatOwner() {
         incorrectFormatOwner.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void incorrectFormatCvc() {
         incorrectFormatCvc.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
+
     public void incorrectYear() {
         incorrectYear.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }
