@@ -1,0 +1,913 @@
+{
+  "256b88ed7b3d19517a48da2858a1227e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5db90533a9027bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984262436,
+        "stop" : 1662984263871,
+        "duration" : 1435
+      }
+    } ]
+  },
+  "d0aa5feccbc67b81b05219e6551361a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e091e607c2ae3185",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {By.xpath: //*[text()='Ошибка! Банк отказал в проведении операции.']}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984199009.5.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984199009.5.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1662984187295,
+        "stop" : 1662984199417,
+        "duration" : 12122
+      }
+    } ]
+  },
+  "80842fef198aa7f98304c972b38a7390" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df3ca45622539172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984277454,
+        "stop" : 1662984279102,
+        "duration" : 1648
+      }
+    } ]
+  },
+  "cf4cd60ace2da545766e70c830be73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1a7cb660f51baf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984369061,
+        "stop" : 1662984372325,
+        "duration" : 3264
+      }
+    } ]
+  },
+  "5bb09d95faf9c8c004b78b61f403769b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2dd5495a08e53287",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984234495,
+        "stop" : 1662984236189,
+        "duration" : 1694
+      }
+    } ]
+  },
+  "655d775935425c7d1a105a2fdcde9d9a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4d5bbd63aaae258",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984141380,
+        "stop" : 1662984143160,
+        "duration" : 1780
+      }
+    } ]
+  },
+  "299977f8152bc7fde87634caeb88310c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11a4bdaa9d16722d",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984248116.8.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984248116.8.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984236199,
+        "stop" : 1662984248516,
+        "duration" : 12317
+      }
+    } ]
+  },
+  "130660a89565e79fddfcce8238e5ab6c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "684973ee9394067e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='CVC/CVV']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984290716.11.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984290716.11.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='CVC/CVV']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984279106,
+        "stop" : 1662984291112,
+        "duration" : 12006
+      }
+    } ]
+  },
+  "e9bb58e334828b579441d153294a74f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "678cc54e720c0b6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984144987,
+        "stop" : 1662984146447,
+        "duration" : 1460
+      }
+    } ]
+  },
+  "c4cd4cbebace6b23e73db1ec77cda455" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edc0ec3556762423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984220541,
+        "stop" : 1662984222224,
+        "duration" : 1683
+      }
+    } ]
+  },
+  "199b4ea764fad9379cf3cee1ad176a20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "913b2d0f925652eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984331092,
+        "stop" : 1662984332853,
+        "duration" : 1761
+      }
+    } ]
+  },
+  "2c0c9b86f6295d02cd4aea78d8ce0f3b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18656d8e310a08b4",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Месяц']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984344503.14.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984344503.14.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984332858,
+        "stop" : 1662984344904,
+        "duration" : 12046
+      }
+    } ]
+  },
+  "d42767f63fe8a06a903e7a7651844b3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6af0fa0dce56a1e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984168554,
+        "stop" : 1662984172132,
+        "duration" : 3578
+      }
+    } ]
+  },
+  "204a6a00f1cf5440e4a7978b474fb69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "401adf6f9b7932b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984372328,
+        "stop" : 1662984373777,
+        "duration" : 1449
+      }
+    } ]
+  },
+  "4c67de119d5948d61c1e5924ec6f7151" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bea092aaa00d710e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984158173.4.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984158173.4.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984146451,
+        "stop" : 1662984158605,
+        "duration" : 12154
+      }
+    } ]
+  },
+  "5078d7a11ce295d11dc76a9211e9af10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f792e415fcc8f324",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984316774,
+        "stop" : 1662984327543,
+        "duration" : 10769
+      }
+    } ]
+  },
+  "31f34360e13ae7354101ca3e81f92b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9435613e486e77fb",
+      "status" : "failed",
+      "statusDetails" : "expected: <45000> but was: <4500000>",
+      "time" : {
+        "start" : 1662984177064,
+        "stop" : 1662984183696,
+        "duration" : 6632
+      }
+    } ]
+  },
+  "7825a6275a3b35aa60d772d6b9cb8eaf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38fea02a21e33b60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984158611,
+        "stop" : 1662984160514,
+        "duration" : 1903
+      }
+    } ]
+  },
+  "a78343997b975819e222abc7591e6362" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f087d9283f2e91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984263878,
+        "stop" : 1662984265363,
+        "duration" : 1485
+      }
+    } ]
+  },
+  "c0b8dcddbb00bd2b2f13b3aea0db3875" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63f2ede42a64ec82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984173723,
+        "stop" : 1662984175354,
+        "duration" : 1631
+      }
+    } ]
+  },
+  "dce3cd62dd70db05e10d968b006c3dab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f0c3b92fce45210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984175358,
+        "stop" : 1662984177057,
+        "duration" : 1699
+      }
+    } ]
+  },
+  "610841adff9e899b80c0c33638d49dd1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d2f85bc8081a6e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984327547,
+        "stop" : 1662984329284,
+        "duration" : 1737
+      }
+    } ]
+  },
+  "9db0689cd6a7132ae51a1e2f4862acad" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12a31a04843f155e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984115760.1.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984115760.1.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984103456,
+        "stop" : 1662984116286,
+        "duration" : 12830
+      }
+    } ]
+  },
+  "12efb3670a6ef049fdc67d5b0bbe9600" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c908f0d153493ef7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Номер карты']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984128226.2.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984128226.2.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Номер карты']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984116337,
+        "stop" : 1662984128688,
+        "duration" : 12351
+      }
+    } ]
+  },
+  "b7b2064bd7c0a807c38f8b0e6c0e7df1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ff7139f88764fa6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='CVC/CVV']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984302785.12.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984302785.12.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='CVC/CVV']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984291118,
+        "stop" : 1662984303165,
+        "duration" : 12047
+      }
+    } ]
+  },
+  "211647757f08036f12dfe605f0c3c507" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3658a86d889545b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984218960,
+        "stop" : 1662984220538,
+        "duration" : 1578
+      }
+    } ]
+  },
+  "28ca2c097fba24b2663581621edc18d2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "725b07c96702418d",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {By.xpath: //*[text()='Операция одобрена Банком.']}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984102693.0.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984102693.0.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1662984083030,
+        "stop" : 1662984103313,
+        "duration" : 20283
+      }
+    } ]
+  },
+  "425c67f636294e7104f6a0e4bb4107ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f517dd8a27ea2afb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984185412,
+        "stop" : 1662984187290,
+        "duration" : 1878
+      }
+    } ]
+  },
+  "975169dff2af0685ec2c0561b4a2b86e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e11dac0ab006ba8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Месяц']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984356694.15.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984356694.15.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984344909,
+        "stop" : 1662984357072,
+        "duration" : 12163
+      }
+    } ]
+  },
+  "1f8e86b084d3053e007d24da7e0e90d7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11fd397b1d02f1f0",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {By.xpath: //*[text()='Ошибка! Банк отказал в проведении операции.']}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984212627.6.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984212627.6.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1662984200984,
+        "stop" : 1662984213024,
+        "duration" : 12040
+      }
+    } ]
+  },
+  "5187909d83b216ad5e71567f99b07bc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1938d1129799ddd",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984314721.13.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984314721.13.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984303169,
+        "stop" : 1662984315118,
+        "duration" : 11949
+      }
+    } ]
+  },
+  "c46ab5fbed1eca79fae94d765dfe69b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17d1b5b5c1e8cd1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984172137,
+        "stop" : 1662984173718,
+        "duration" : 1581
+      }
+    } ]
+  },
+  "a0f2d47cd8324857514a301fde4cc8ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4fd8b32ded420a69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984183713,
+        "stop" : 1662984185405,
+        "duration" : 1692
+      }
+    } ]
+  },
+  "8f4671ba423d60bdcb2bd3eca98a3f66" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cf6611b07ac41f9",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984260376.9.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984260376.9.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984248520,
+        "stop" : 1662984260768,
+        "duration" : 12248
+      }
+    } ]
+  },
+  "4aebb2000c18a6ce9fb9f8ad407ec12" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b32d4b5671d661bc",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984368662.16.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984368662.16.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984357078,
+        "stop" : 1662984369057,
+        "duration" : 11979
+      }
+    } ]
+  },
+  "bab1d91d0bef09baaeca602a88aed415" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a709792cf05194e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984143188,
+        "stop" : 1662984144984,
+        "duration" : 1796
+      }
+    } ]
+  },
+  "fd86cb7d30d56cfd860995e8dcac4942" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ef1312b3f574bb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984373780,
+        "stop" : 1662984375413,
+        "duration" : 1633
+      }
+    } ]
+  },
+  "9a9688c2dad7f437b7e7d833f76d145a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fac0fcd06f52f433",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984199424,
+        "stop" : 1662984200981,
+        "duration" : 1557
+      }
+    } ]
+  },
+  "4d52271f6cb86dddae6f6b016afbf82f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4625757c5bf2f8ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984213029,
+        "stop" : 1662984218954,
+        "duration" : 5925
+      }
+    } ]
+  },
+  "d6625a674838273ce32871e69cc959e8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f70bf92a2d154b8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Номер карты']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984277040.10.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984277040.10.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Номер карты']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984265367,
+        "stop" : 1662984277446,
+        "duration" : 12079
+      }
+    } ]
+  },
+  "6914411141127cc0de31995a0d458422" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1a5c9a3c48770f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984329286,
+        "stop" : 1662984331087,
+        "duration" : 1801
+      }
+    } ]
+  },
+  "8cf82667604438bd35a1edd596ca3b25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c4812b5447cc265",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984315122,
+        "stop" : 1662984316769,
+        "duration" : 1647
+      }
+    } ]
+  },
+  "3fdee60e56190ff4135c4f2d3b351d3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65fdbb9df577ba8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984162305,
+        "stop" : 1662984168549,
+        "duration" : 6244
+      }
+    } ]
+  },
+  "2ed84ef2aaa161820df9cfa953cceb0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebf19c53c423fcff",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984140944.3.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984140944.3.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984128701,
+        "stop" : 1662984141373,
+        "duration" : 12672
+      }
+    } ]
+  },
+  "8f601fb9f73b00ef8b12bad4ca9da548" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6848bbcf97c46267",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984260774,
+        "stop" : 1662984262431,
+        "duration" : 1657
+      }
+    } ]
+  },
+  "73d8a2c74e9f19c2a86cd283a78f5ec0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db7485ca3f194cf",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984234090.7.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984234090.7.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "time" : {
+        "start" : 1662984222229,
+        "stop" : 1662984234486,
+        "duration" : 12257
+      }
+    } ]
+  },
+  "b23176e5f5b5373fcabaa3438c96c1c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fdac40bae9a1443",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662984160516,
+        "stop" : 1662984162302,
+        "duration" : 1786
+      }
+    } ]
+  }
+}

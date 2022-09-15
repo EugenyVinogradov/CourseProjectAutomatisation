@@ -1,0 +1,387 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be visible {By.xpath: //*[text()='Операция одобрена Банком.']}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984102693.0.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984102693.0.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithOwnerNameContainHyphenApproved()",
+        "uid" : "725b07c96702418d",
+        "parentUid" : "24d65b607f24bc5811edd53437d196ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984083030,
+          "stop" : 1662984103313,
+          "duration" : 20283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24d65b607f24bc5811edd53437d196ca"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984115760.1.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984115760.1.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithOwnerNameContainOnlyHyphensNotPay()",
+        "uid" : "12a31a04843f155e",
+        "parentUid" : "2f1b7511100cc0739976bfc62eee6164",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984103456,
+          "stop" : 1662984116286,
+          "duration" : 12830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f1b7511100cc0739976bfc62eee6164"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Номер карты']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984128226.2.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984128226.2.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Номер карты']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithCardNumberIsAllNullsNotPay()",
+        "uid" : "c908f0d153493ef7",
+        "parentUid" : "8be12641748dbeebc8868a1ebd93e555",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984116337,
+          "stop" : 1662984128688,
+          "duration" : 12351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8be12641748dbeebc8868a1ebd93e555"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984140944.3.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984140944.3.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithOwnerNameContainCyrillicNotPay()",
+        "uid" : "ebf19c53c423fcff",
+        "parentUid" : "f4b4d60d9674f7bfab7a0a22a6ff4649",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984128701,
+          "stop" : 1662984141373,
+          "duration" : 12672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4b4d60d9674f7bfab7a0a22a6ff4649"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984158173.4.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984158173.4.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourWithOwnerNameContainSpecialSymbolsNotPay()",
+        "uid" : "bea092aaa00d710e",
+        "parentUid" : "b69d22fe477ee16198ea91f2c43e4b11",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984146451,
+          "stop" : 1662984158605,
+          "duration" : 12154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b69d22fe477ee16198ea91f2c43e4b11"
+    }, {
+      "name" : "expected: <45000> but was: <4500000>",
+      "children" : [ {
+        "name" : "shouldPayTourApprovedPaymentCorrespondsAdvertisement()",
+        "uid" : "9435613e486e77fb",
+        "parentUid" : "54749f0a82a563478f19f1c5d3a13223",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984177064,
+          "stop" : 1662984183696,
+          "duration" : 6632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54749f0a82a563478f19f1c5d3a13223"
+    }, {
+      "name" : "Element should be visible {By.xpath: //*[text()='Ошибка! Банк отказал в проведении операции.']}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984199009.5.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984199009.5.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditDeclinedWithCorrectNumber()",
+        "uid" : "e091e607c2ae3185",
+        "parentUid" : "f1aae00ff403bae74131487b3deceff2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984187295,
+          "stop" : 1662984199417,
+          "duration" : 12122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1aae00ff403bae74131487b3deceff2"
+    }, {
+      "name" : "Element should be visible {By.xpath: //*[text()='Ошибка! Банк отказал в проведении операции.']}\r\nElement: '<div class=\"notification__content\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984212627.6.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984212627.6.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "shouldPayTourDeclinedWithCorrectNumber()",
+        "uid" : "11fd397b1d02f1f0",
+        "parentUid" : "ec0dfa27343c194d73485f274ad22371",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984200984,
+          "stop" : 1662984213024,
+          "duration" : 12040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec0dfa27343c194d73485f274ad22371"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984234090.7.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984234090.7.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithOwnerNameContainSpecialSymbolsNotPay()",
+        "uid" : "db7485ca3f194cf",
+        "parentUid" : "798d1a985cbc07abed6f85c18398f875",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984222229,
+          "stop" : 1662984234486,
+          "duration" : 12257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "798d1a985cbc07abed6f85c18398f875"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984248116.8.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984248116.8.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourWithOwnerNameContainCyrillicNotPay()",
+        "uid" : "11a4bdaa9d16722d",
+        "parentUid" : "d2e4f64c0612eb0fa463044677fa032b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984236199,
+          "stop" : 1662984248516,
+          "duration" : 12317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2e4f64c0612eb0fa463044677fa032b"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984260376.9.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984260376.9.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourWithOwnerNameContainOnlyHyphensNotPay()",
+        "uid" : "6cf6611b07ac41f9",
+        "parentUid" : "8ff4949c865b79482a152a511f1a93db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984248520,
+          "stop" : 1662984260768,
+          "duration" : 12248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ff4949c865b79482a152a511f1a93db"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Номер карты']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984277040.10.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984277040.10.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Номер карты']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourWithCardNumberIsAllNullsNotPay()",
+        "uid" : "6f70bf92a2d154b8",
+        "parentUid" : "dc663331b040d6c53c55266e51c30274",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984265367,
+          "stop" : 1662984277446,
+          "duration" : 12079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc663331b040d6c53c55266e51c30274"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='CVC/CVV']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984290716.11.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984290716.11.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='CVC/CVV']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithCvcIsTripleNullNotPay()",
+        "uid" : "684973ee9394067e",
+        "parentUid" : "42811391f2b7df2439f4b413e8aacbed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984279106,
+          "stop" : 1662984291112,
+          "duration" : 12006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42811391f2b7df2439f4b413e8aacbed"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='CVC/CVV']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984302785.12.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984302785.12.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='CVC/CVV']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourWithCvcIsTripleNullNotPay()",
+        "uid" : "8ff7139f88764fa6",
+        "parentUid" : "ebcb4bd9166839ee12c172ee8e73d8bc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984291118,
+          "stop" : 1662984303165,
+          "duration" : 12047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebcb4bd9166839ee12c172ee8e73d8bc"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984314721.13.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984314721.13.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourWithOwnerNameContainDigitNotPay()",
+        "uid" : "d1938d1129799ddd",
+        "parentUid" : "467e017fb99c7ea57be3c6870b9c4915",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984303169,
+          "stop" : 1662984315118,
+          "duration" : 11949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "467e017fb99c7ea57be3c6870b9c4915"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Месяц']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984344503.14.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984344503.14.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithMonthIsAllNullsNotPay()",
+        "uid" : "18656d8e310a08b4",
+        "parentUid" : "e06cd8adeac7fcb07c47fe382cadf05b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984332858,
+          "stop" : 1662984344904,
+          "duration" : 12046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e06cd8adeac7fcb07c47fe382cadf05b"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Месяц']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984356694.15.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984356694.15.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourWithMonthIsAllNullsNotPay()",
+        "uid" : "7e11dac0ab006ba8",
+        "parentUid" : "c97bca5ddc5bbbb6f60278122238da97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984344909,
+          "stop" : 1662984357072,
+          "duration" : 12163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c97bca5ddc5bbbb6f60278122238da97"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']/../..//*[text()='Неверный формат']}\r\nExpected: visible\r\nScreenshot: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984368662.16.png\r\nPage source: file:/C:/Users/Vinog/OneDrive/Learning/Testing/4.AutomaticTesting/Homeworks/CourseProject/build/reports/tests/1662984368662.16.html\r\nTimeout: 10 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']/../..//*[text()='Неверный формат']\"}",
+      "children" : [ {
+        "name" : "shouldPayTourInCreditWithOwnerNameContainDigitNotPay()",
+        "uid" : "b32d4b5671d661bc",
+        "parentUid" : "fa1e407194d8533e5139d4ce7e9fc335",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662984357078,
+          "stop" : 1662984369057,
+          "duration" : 11979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa1e407194d8533e5139d4ce7e9fc335"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

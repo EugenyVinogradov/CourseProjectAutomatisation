@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "3f9c79e9d358caa83435944340bfc0dc",
+    "name" : "ru.netology.courseProject.test.Tests",
+    "statistic" : {
+      "failed" : 18,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 29,
+      "unknown" : 0,
+      "total" : 47
+    }
+  } ]
+}
