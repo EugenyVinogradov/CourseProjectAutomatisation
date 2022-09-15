@@ -18,5 +18,5 @@
 * Создать отчет Allure и автоматически открыть его в браузере, выполнив команду в терминале *gradlew allureServe* (*./gradlew allureServe* для Windows)
 #   ДОКУМЕНТАЦИЯ
 * [План автоматизации](https://github.com/EugenyVinogradov/CourseProjectAutomatisation/blob/c7a208c570935cb098b3c667422883248d341d46/Plan.md)
-* [Отчет по тестированию]()
-* [Отчет по автоматизации]()
+* [Отчет по тестированию](https://github.com/EugenyVinogradov/CourseProjectAutomatisation/blob/main/Report.md)
+* [Отчет по автоматизации](https://github.com/EugenyVinogradov/CourseProjectAutomatisation/blob/main/Summary.md)
