@@ -5,7 +5,7 @@
 В результате тестирования пройдено 47 тест-кейсов, из них успешно - 29 (61,7%), провалено - 18 (38,3%)
 ###  Отчетность
 По итогам тестирования создано 19 [ISSUES](https://github.com/EugenyVinogradov/CourseProjectAutomatisation/issues) (18 по проваленным тестам, 1 - орфографическая ошибка)
-Также, были интегрированы отчеты Gradle и Allure, а также система CI/CD Appveyor
+Также, были интегрированы отчеты [Gradle](https://course-project-automatisation-gradle-de74ja52h-eugenyvinogradov.vercel.app/) и [Allure](https://course-project-automatisation-8efe41iid-eugenyvinogradov.vercel.app/), а также система CI/CD Appveyor
 ###  Общие рекомендации
 * Строже подойти к валидации полей ввода
 * В поле "Владелец" добавить плейсхолдер с подсказкой (например, "Введите фамилию и имя, как на карте"
